@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">planTime</string>
+    <string name="txtFirstPeriodStr">1限目:</string>
+    <string name="txtTwoPeriodStr">2限目:</string>
+    <string name="txtThreePeriodStr">3限目:</string>
+    <string name="txtFourPeriodStr">4限目:</string>
+    <string name="btnMonStr">月曜日</string>
+    <string name="btnTuesStr">火曜日</string>
+    <string name="btnWedStr">水曜日</string>
+    <string name="btnThuStr">木曜日</string>
+    <string name="btnFriStr">金曜日</string>
+    <string name="btnSatStr">土曜日</string>
+    <string name="btnSunStr">日曜日</string>
+    <string name="btnRevisionStr">修正</string>
+    <string name="txtMonStr">月曜日</string>
+    <string name="btnBackStr">戻る</string>
+    <string name="btnAllDeleteStr">全削除</string>
+    <string name="txtTueStr">火曜日</string>
+    <string name="btnSaveStr">保存</string>
+    <string name="txtWedStr">水曜日</string>
+    <string name="txtThuStr">木曜日</string>
+    <string name="txtFriStr">金曜日</string>
+    <string name="txtSatStr">土曜日</string>
+    <string name="txtSunStr">日曜日</string>
+</resources>

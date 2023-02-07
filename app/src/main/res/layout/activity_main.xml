@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <HorizontalScrollView
+        android:id="@+id/hzScroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnMon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:text="@string/btnMonStr" />
+
+            <Button
+                android:id="@+id/btnTue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/btnTuesStr" />
+
+            <Button
+                android:id="@+id/btnWed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:text="@string/btnWedStr" />
+
+            <Button
+                android:id="@+id/btnThu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:text="@string/btnThuStr" />
+
+            <Button
+                android:id="@+id/btnFri"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:text="@string/btnFriStr" />
+
+            <Button
+                android:id="@+id/btnSat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:text="@string/btnSatStr" />
+
+            <Button
+                android:id="@+id/btnSun"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:text="@string/btnSunStr" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="80dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtFirstPeriod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#8BC34A"
+            android:text="@string/txtFirstPeriodStr"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtLessonOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtTwoPeriod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#8BC34A"
+            android:text="@string/txtTwoPeriodStr"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtLessonTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtThreePeriod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#8BC34A"
+            android:text="@string/txtThreePeriodStr"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtLessonThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtFourPeriod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#8BC34A"
+            android:text="@string/txtFourPeriodStr"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtLessonFour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnRevision"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnRevisionStr" />
+
+
+</LinearLayout>
